@@ -44,7 +44,7 @@ export default function TodoForm() {
     <>
       {/* Todo Form */}
       <div className=" flex justify-center my-6">
-        <div className=" bg-white shadow-md w-1/3 rounded-md">
+        <div className=" bg-white shadow-md lg:w-1/3 md:wfull rounded-md">
           <form onSubmit={AddTodo} className=" flex">
             <input
               type="text"

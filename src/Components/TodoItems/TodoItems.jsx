@@ -8,7 +8,7 @@ export default function TodoItems({ todoData, Completed, DeleteTodo }) {
       {todoData.map((todos, index) => {
         return (
           <div className=" flex justify-center mt-3">
-            <div className="bg-white shadow-md w-1/3 py-2 px-4 rounded-md flex items-center gap-2">
+            <div className="bg-white shadow-md lg:w-1/3 md:wfull py-2 px-4 rounded-md flex items-center gap-2">
               <input
                 type="checkbox"
                 className=" cursor-pointer"

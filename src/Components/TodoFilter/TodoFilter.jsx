@@ -5,7 +5,7 @@ function TodoFilter({ filter }) {
     <>
       {/* Todo filter menu*/}
       <div className=" flex justify-center mt-3">
-        <div className=" w-1/3">
+        <div className=" lg:w-1/3 md:wfull">
           <ul className="flex gap-3 uppercase text-sm text-gray-400 font-semibold">
             <li
               className={`hover:text-black cursor-pointer ${
