@@ -4,7 +4,7 @@ function TodoFilter({ filter }) {
   return (
     <>
       {/* Todo filter menu*/}
-      <div className=" flex justify-center mt-3">
+      <div className=" flex justify-center mt-3 px-4">
         <div className=" lg:w-1/3 md:wfull">
           <ul className="flex gap-3 uppercase text-sm text-gray-400 font-semibold">
             <li
